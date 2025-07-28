@@ -3,6 +3,7 @@
 
 # 파일
 .DS_Store
+.Trash/
 *.env
 # *.db
 *.pdf
@@ -102,10 +103,14 @@ cover/
 *.pot
 
 # Django stuff:
-*.log
 local_settings.py
 db.sqlite3
 db.sqlite3-journal
+
+# Logs and other temporary files
+*.log
+*.tmp
+*.bak
 
 # Flask stuff:
 instance/
@@ -214,3 +219,6 @@ poetry.toml
 pyrightconfig.json
 
 # End of https://www.toptal.com/developers/gitignore/api/jupyternotebooks,python
+
+# vertex-ai-key.json
+vertex-ai-key.json

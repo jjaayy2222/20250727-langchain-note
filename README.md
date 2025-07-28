@@ -30,19 +30,24 @@
 ## 진행 상황 / Current Progress
 -   초기 개발 환경 설정 완료 (Python, Poetry, 가상 환경 관리)
 -   LangSmith API 연동 및 프로젝트 추적 기능 설정 완료
--   **OpenAI API LangChain 연동 및 주요 기능**
+-   Gemini API LangChain 연동 및 주요 기능
 -   Google Gemini API 연동 시도
     - 제미나이 버전으로 시도 중
     - 라이브러리 설치 및 API 사용법 관련 일부 문제 발생 -> 해결
-    - 멀티모달 기능 연동은 현재 보류 중
+    - **멀티모달 기능 연동 -> 시도 -> 테스트 성공**
+- **개발 환경 재설정**
+    - 개발 환경 의존성 -> 충돌 문제 -> 파이썬 재설치 및 requirments.txt 재정비
+    - 파이썬: `pyenv` 설정 반영을 위한 `.python-version` 업데이트
+- **Gemini 멀티모달 스트리밍 기능 구현 및 테스트 성공**
+    - **`Gen AI SDK` [https://ai.google.dev/gemini-api/docs/migrate?hl=ko#client] 참고**
+    - **`02-Gemini-LLM.ipynb` 실행 전 test 진행: 01_basic/01_2_GEMINI_TEST**
+    - **`test_cell_outputs.md`: `test2.py`, `test_gemini.py` 테스트 결과 정리**
 
 ---
 **개발 환경 / Development Environment:**
--   **Python**: Python 3.11 (pyenv를 통해 관리)
+-   **Python**: Python 3.13.5 (pyenv를 통해 관리)
 -   **Poetry**: 프로젝트 의존성 관리 도구
--   **세부 의존성**: 프로젝트의 모든 Python 패키지 의존성 및 버전은 `pyproject.toml` 파일에서 확인 가능
--   **Python**: Python 3.11 (managed via pyenv)
--   **Poetry**: Project dependency management tool
--   **Detailed Dependencies**: All Python package dependencies and their versions can be found in the `pyproject.toml` file.
+-   **세부 의존성 -> 현재 수정 중**
+-   **설치 환경**: `requirements.txt`에서 확인 가능, 계속 업데이트 예정
 
 ---
