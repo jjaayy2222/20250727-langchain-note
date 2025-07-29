@@ -20,6 +20,7 @@
 * [랭체인LangChain 노트 by 테디노트](https://wikidocs.net/book/14314)
 * [LangChain 공식 Document](https://www.langchain.com/docs/)
 * [OpenAI API Reference](https://platform.openai.com/docs/introduction)
+* **[`Gen AI SDK`]** (https://ai.google.dev/gemini-api/docs/migrate?hl=ko#client) **참고**
 
 ---
 
@@ -42,11 +43,18 @@
 - 개발 환경 재설정
     - 개발 환경 의존성 -> 충돌 문제 -> 파이썬 재설치 및 requirments.txt 재정비
     - 파이썬: `pyenv` 설정 반영을 위한 `.python-version` 업데이트
-- **Gemini 멀티모달 스트리밍 기능 구현 및 테스트 성공**
-    - **`Gen AI SDK` [https://ai.google.dev/gemini-api/docs/migrate?hl=ko#client] 참고**
+- Gemini 멀티모달 스트리밍 기능 구현 및 테스트 성공
     - `02-Gemini-LLM.ipynb` 실행 전 test 진행: 01_basic/01_2_GEMINI_TEST
     - `test_cell_outputs.md`: `test2.py`, `test_gemini.py` 테스트 결과 정리
-    - **`test_gemini_prompt.py` -> 프롬프트 수정 연습 및 성공 -> `test_gemini_prompt_cell_ouputs.md`에 테스트 결과 정리 및 저장**
+    - `test_gemini_prompt.py` -> 프롬프트 수정 연습 및 성공 -> `test_gemini_prompt_cell_ouputs.md`에 테스트 결과 정리 및 저장**
+- **LCEL**
+    - **LangChain Expression Language 개념**
+    - **기본 구성 : 프롬프트(템플릿 활용) + 모델 + 아웃 파서**
+    - **`stream`, `invoke`**
+- **LCEL interface**
+    - **표준 인터페이스**: `stream`, `invoke`, **`batch`**
+    - **비동기 메소드: `astream`, `ainvoke`, `abatch`, `astream_log`**
+    - **Runnable: `RunnablePassthrough`, `RunnablePassthrough()`, `RunnablePassthrough.assign(...)`, `RunnableLambda`, `operator.itemgetter`**
 
 ---
 
