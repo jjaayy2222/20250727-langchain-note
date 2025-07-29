@@ -18,6 +18,7 @@
 
 .idea/
 .vscode/
+*.code-workspace
 
 # 폴더
 */cache/*
