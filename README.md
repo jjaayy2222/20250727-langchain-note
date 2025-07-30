@@ -54,7 +54,7 @@
 - **LCEL interface**
     - **표준 인터페이스**: `stream`, `invoke`, **`batch`**
     - **비동기 메소드: `astream`, `ainvoke`, `abatch`, `astream_log`**
-    - **Runnable: `RunnablePassthrough`, `RunnablePassthrough()`, `RunnablePassthrough.assign(...)`, `RunnableLambda`, `operator.itemgetter`**
+    - **Runnable: `RunnablePassthrough`, `RunnablePassthrough()`, `RunnablePassthrough.assign(...)`, `RunnableLambda`, `operator.itemgetter`** 
 
 ---
 
