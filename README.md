@@ -65,3 +65,20 @@
 -   **설치 환경**: `requirements.txt`에서 확인 가능, 계속 업데이트 예정
 
 ---
+
+**📚 Documentation**
+
+- **[`docs/`](./docs/)**: 이 프로젝트의 관련 문서 정리
+  - [`concepts/`](./docs/concepts/)
+      - 프로젝트 관련 핵심 개념과 이론적 배경
+      - 새로운 기능을 개발하거나 프로젝트의 근간을 이해하는 데 필요한 정보 포함
+  -  **[`papers/`](./docs/papers/)**
+     -  프로젝트와 관련된 **논문이나 연구 자료**
+     -  해당 논문에 대한 요약 및 핵심 내용 정리 
+           -  ➡️ **[goole_prompt_guide_summary/](./docs/papers/google_prompt_guide_summary/)**생성
+           -  ➡️ **프롬프트 학습 전 최신 공식 가이드 숙지 및 요약, 정리, 공유**
+  - [`practice/`](.docs/practice/)
+    - 프로젝트 개발 과정에서의 실습 결과, 구현 과정, 주요 결정 사항 등을 기록 예정 
+    - 실제 코드와 연계된 설명 예정
+  - [`troubleshooting/`](./docs/troubleshooting/)
+    - 개발 중 발생했던 **주요 에러와 해결 방법** 정리 예정
