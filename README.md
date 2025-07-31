@@ -47,14 +47,17 @@
     - `02-Gemini-LLM.ipynb` 실행 전 test 진행: 01_basic/01_2_GEMINI_TEST
     - `test_cell_outputs.md`: `test2.py`, `test_gemini.py` 테스트 결과 정리
     - `test_gemini_prompt.py` -> 프롬프트 수정 연습 및 성공 -> `test_gemini_prompt_cell_ouputs.md`에 테스트 결과 정리 및 저장**
-- **LCEL**
-    - **LangChain Expression Language 개념**
-    - **기본 구성 : 프롬프트(템플릿 활용) + 모델 + 아웃 파서**
-    - **`stream`, `invoke`**
-- **LCEL interface**
-    - **표준 인터페이스**: `stream`, `invoke`, **`batch`**
-    - **비동기 메소드: `astream`, `ainvoke`, `abatch`, `astream_log`**
-    - **Runnable: `RunnablePassthrough`, `RunnablePassthrough()`, `RunnablePassthrough.assign(...)`, `RunnableLambda`, `operator.itemgetter`** 
+- LCEL
+    - LangChain Expression Language 개념
+    - 기본 구성 : 프롬프트(템플릿 활용) + 모델 + 아웃 파서
+    - `stream`, `invoke`
+- LCEL interface
+    - 표준 인터페이스**: `stream`, `invoke`, `batch`
+    - 비동기 메소드: `astream`, `ainvoke`, `abatch`, `astream_log`
+    - Runnable: `RunnablePassthrough`, `RunnablePassthrough()`, `RunnablePassthrough.assign(...)`, `RunnableLambda`, `operator.itemgetter`
+- **`Prompts`**
+    - **`Prompt`**
+      - **`PromptTemplate`: `from_template()`, `PromptTemplate`객체 생성으로 프롬프트 생성, `partial_variables`, `파일로부터 template 읽어오기`, `ChatPromptTemplate`, `MessagePlaceholder`**
 
 ---
 
