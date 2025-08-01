@@ -223,3 +223,9 @@ pyrightconfig.json
 
 # vertex-ai-key.json
 vertex-ai-key.json
+
+# git-commit-message 관련 = 자동 커밋 로그 백업 (raw)
+docs/changelog/langchain-commit-message-from-git.md
+
+# 커밋 자동 생성 관련 캐시 및 결과물
+scripts/gen_langchain_commit_cache.json

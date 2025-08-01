@@ -67,6 +67,45 @@
 
 ---
 
+## 🛠️ Git 커밋 메시지 자동 생성기(`gen_langchain_commit.py`)
+
+본 프로젝트에서는 커밋 로그 작성의 일관성과 기록 관리를 위한 **Python 기반의 CLI 커밋 메시지 생성기를 함께 제공**
+
+- 기능
+  - 커밋 타입 선택 (`feat`, `fix`, `docs` 등)
+  - prefix[#버전] 자동 추천 (예: `#13.6` → `#13.7`)
+  - `git diff` 기반 변경 파일 안내
+  - 제목 및 본문 입력 (멀티라인 가능)
+  - 최종 커밋 메시지 미리보기 기능
+  - 커밋 후, `docs/changelog/py-gen-langchain-commit-log.md`에 자동 백업
+
+- 목적
+  - 커밋 히스토리 자동 백업 (수동 changelog와는 별도)
+  - 커밋 메시지 생성기의 출력 내역을 보존
+  - 운영 중 불가피한 커밋 유실을 대비한 참고용 로그
+
+📁 위치: `scripts/gen_langchain_commit.py`
+
+📁 **자동 로그 파일 경로**: `docs/changelog/py-gen-langchain-commit-log.md`
+
+📄 공식 릴리즈 정보 `changelog` → `docs/changelog/official.md` 참조
+
+📄 수동 요약 `changelog` ➡︎ `docs/changelog/commit-log.md` 참조
+
+🎯 실행 방법:
+
+```bash
+python scripts/gen_langchain_commit.py
+```
+
+또는
+
+```bash
+./scripts/gen_langchain_commit.py
+```
+
+---
+
 ## 🔖 참고 자료 / Reference
 
 - [랭체인LangChain 노트 by 테디노트](https://wikidocs.net/book/14314)
