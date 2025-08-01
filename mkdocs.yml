@@ -1,0 +1,43 @@
+site_name: LangChain 노트                                                   # 프로젝트 이름(변수명 변경 NO!)
+site_description: LangChain, LangGraph, 프롬프트 엔지니어링 학습 기록             # 문서 목적/키워드만 담으면 충분
+# site_url: https://your-site-url.com                                      # 필요시 배포용 주소 설정
+repo_url: https://github.com/jjaayy2222/20250727-langchain-note
+
+theme:
+  name: material
+  language: ko
+
+nav:
+  - 개요: index.md
+  - 개념 정리:
+      - 소개: concepts/README.md
+      - LLM 개요: concepts/02_1_Prompt.md
+      - 고급 프롬프팅 기법:
+          - 소개: papers/google_prompt_guide_summary/01_introduction.md
+          - 출력 설정: papers/google_prompt_guide_summary/02_llm_output_configuration.md
+          - 기본 프롬프팅: papers/google_prompt_guide_summary/03_basic_prompting_techniques.md
+          - 고급 역할: papers/google_prompt_guide_summary/04_advanced_prompting_roles.md
+          - 추론 기법: papers/google_prompt_guide_summary/05_reasoning_techniques.md
+          - 액션 프롬프트: papers/google_prompt_guide_summary/06_action_techniques.md
+          - 코드 프롬프팅: papers/google_prompt_guide_summary/07_code_prompting.md
+          - Best Practices: papers/google_prompt_guide_summary/08_best_practices.md
+          - 결론/요약: papers/google_prompt_guide_summary/09_summary.md
+  - 실습 자료:
+      - 소개: practice/README.md  # (추후 준비)
+      - PromptTemplate 실습: practice/01_prompttemplate_practice.md  # (추후 준비)
+  - 트러블슈팅:
+      - 폴더 소개: troubleshooting/README.md
+      - VSCode 경로 오류: troubleshooting/vscode-path-error.md
+      - 템플릿 문서: troubleshooting/_template.md
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - tables
+  - admonition
+  - codehilite
+  - attr_list
+  - pymdownx.superfences
+
+plugins:
+  - search
