@@ -12,3 +12,9 @@
 - /docs/practice/git-automation-notes/* 문서 10종 정리 완료
 - 커밋 자동화 구축 과정 회고 다이어리 포함 (2025-08-01)
 - 자동 로그 백업 파일(commit-message-raw-log.md) .gitignore에 추가
+
+- chore[#14.3]: 캐시 파일 제거에 따른 gitignore 정비 및 자동 로그 파일 구조 정리
+
+- `.gitignore`: `gen_langchain_commit_cache.json` 제외
+- `py-gen-langchain-commit-log.md` 제거 후 `log` 파일 단일화
+- 최신 커밋 로그 =`commit-message-raw-log.md`로 a`ppend` 완료
