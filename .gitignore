@@ -229,3 +229,6 @@ docs/changelog/langchain-commit-message-from-git.md
 
 # 커밋 자동 생성 관련 캐시 및 결과물
 scripts/gen_commit_cache.json 
+
+# 임시 or memo
+temp/
