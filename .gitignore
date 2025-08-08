@@ -20,6 +20,9 @@
 .vscode/
 *.code-workspace
 
+# ChromaDB
+db/
+
 # 폴더
 */cache/*
 */keys/*
