@@ -235,3 +235,5 @@ scripts/gen_commit_cache.json
 
 # 임시 or memo
 temp/
+.env
+requirements.txt.backup
