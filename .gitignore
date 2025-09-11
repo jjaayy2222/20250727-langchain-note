@@ -237,3 +237,6 @@ scripts/gen_commit_cache.json
 temp/
 .env
 requirements.txt.backup
+
+# streamlit-deploy 브랜치에서 만들었던 requirements.txt
+requirements-streamlit.txt
