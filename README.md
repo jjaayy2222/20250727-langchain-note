@@ -1,26 +1,41 @@
-# 20250727-langchain-llm-tutorial (LangChain LLM Tutorial Practice Repository)
+# **`LangChain LLM Tutorial Practice Repository`**
 
-- 이 저장소는 **"랭체인LangChain 노트 by 테디노트"** (Wikidocs: [랭체인LangChain 노트 by 테디노트](https://wikidocs.net/book/14314)) 책을 참고하여 진행하는 LLM(Large Language Model) 개발 연습을 위한 실습 프로젝트
-- This repository serves as an LLM development practice project, referencing the book **"LangChain Note by TeddyNote"** (Wikidocs: [랭체인LangChain 노트 by 테디노트](https://wikidocs.net/book/14314)).
+## 개요 / Overview
+- `../01/` ~ `../18/`: **"랭체인LangChain 노트 by 테디노트"** (Wikidocs: [랭체인LangChain 노트 by 테디노트](https://wikidocs.net/book/14314)) 책을 참고하여 진행하는 LLM(Large Language Model) 개발 연습을 위한 실습 프로젝트
+  
+- `../19/`, `../20/`: **"조코딩의 랭체인으로 AI 에이전트 서비스 만들기"** 책을 참고하여 진행하는 LLM(Large Language Model) 개발 연습을 위한 실습 프로젝트
 
-**주요 목적 / Main Purpose**
-- 책의 내용을 따라가며 LangChain 프레임워크를 활용한 LLM 연동 및 애플리케이션 개발 기술을 학습하고 실습하는 데 중점
-- The primary focus is on learning and practicing LLM integration and application development using the LangChain framework by following the book's content.
+  - `../19/`
+    - 책의 내용을 따라가며 `LangChain 프레임워크를 활용한 LLM 연동` 및 `애플리케이션 개발` 기술을 `학습`하고 `실습`하는 데 중점
+    - [`../19/README.me`](../20250727-langchain-note/19_LangChain-practice-basic/READEME.md) 참고
 
-**참고 사항 / Please Note**
-* 이 프로젝트는 **지속적으로 업데이트**될 예정입니다. 다만, 업데이트 일정은 명확하게 정해져 있지 않음
-* This project is subject to **ongoing updates**. However, there is no fixed update schedule.
+  - `../20/`
+    - **LangChain** 을 활용한 **고급 실습** 을 다룸 → 여러 **에이전트**와 **도구**를 결합하여 복잡한 자동화 시스템과 고급 검색 시스템을 구축하는 방법 연습
+    - [`../20/README.me`](../20250727-langchain-note/20_LangChain-practice-advanced/READEME.md) 참고
 
-* 학습 과정에서 **참고하는 교재 및 다른 LLM 관련 예제의 내용과 다소 차이가 있을 수 있습니다.** 이는 학습자의 환경(특정 API 설치 문제 등) 및 이해도에 따라 최적의 방법을 모색하거나, 특정 LLM API의 기능적/사용법적 특성을 고려하기 위함
-* During the learning process, there **may be slight deviations from the referenced book and other LLM-related examples.** This is done to explore optimal approaches based on the learner's environment (e.g., specific API installation issues) and understanding, or to account for the functional/usage characteristics of specific LLM APIs.
+- This repository serves as an LLM development practice project, referencing the book **"LangChain Note by TeddyNote"** (Wikidocs: [랭체인LangChain 노트 by 테디노트](https://wikidocs.net/book/14314)) & **"Building an AI Agent Service with JoCoding's LangChain"** [조코딩의 랭체인으로 AI 에이전트 서비스 만들기](https://www.hanbit.co.kr/store/books/look.php?p_code=B8976154869).
+
+- **주요 목적 / Main Purpose**
+  - 책의 내용을 따라가며 LangChain 프레임워크를 활용한 LLM 연동 및 애플리케이션 개발 기술을 학습하고 실습하는 데 중점
+  - The primary focus is on learning and practicing LLM integration and application development using the LangChain framework by following the book's content.
+
+- **참고 사항 / Please Note**
+  - 이 프로젝트는 **지속적으로 업데이트**될 예정입니다. 다만, 업데이트 일정은 명확하게 정해져 있지 않음
+  - This project is subject to **ongoing updates**. However, there is no fixed update schedule.
+
+  - 학습 과정에서 **참고하는 교재 및 다른 LLM 관련 예제의 내용과 다소 차이가 있을 수 있음.** 학습자의 환경(특정 API 설치 문제 등) 및 이해도에 따라 최적의 방법을 모색하거나, 특정 LLM API의 기능적/사용법적 특성을 고려하기 위함
+  - During the learning process, there **may be slight deviations from the referenced book and other LLM-related examples.** This is done to explore optimal approaches based on the learner's environment (e.g., specific API installation issues) and understanding, or to account for the functional/usage characteristics of specific LLM APIs.
 
 ---
 
 ## 참고 / Reference
 * [랭체인LangChain 노트 by 테디노트](https://wikidocs.net/book/14314)
 * [LangChain 공식 Document](https://www.langchain.com/docs/)
+* [조코딩의 랭체인으로 AI 에이전트 서비스 만들기](https://www.hanbit.co.kr/store/books/look.php?p_code=B8976154869)
+* [깃허브 저장소](https://github.com/sw-woo/hanbit-langchain/tree/main)
+* [LangChain 공식 Document](https://www.langchain.com/docs/)
 * [OpenAI API Reference](https://platform.openai.com/docs/introduction)
-* **[`Gen AI SDK`]** (https://ai.google.dev/gemini-api/docs/migrate?hl=ko#client) **참고**
+* [**`Gen AI SDK`**](https://ai.google.dev/gemini-api/docs/migrate?hl=ko#client) **참고**
 
 ---
 
@@ -65,6 +80,47 @@
 | [`docs/troubleshooting/`](./docs/troubleshooting/) | 에러 대응 및 문제 해결 자료 |
 | [`docs/changelog/`](./docs/changelog/) | ✔️ 공식 업데이트 기록, 커밋 정리, 히스토리 트랙 |
 
+<br>
+
+## **🆕** 🚀 [**`인공지능 시인 App`**](https://ai-poet-with-gemini-flash-lite.streamlit.app/#b8c229c2) 배포 - `../19/02_ai-poet-creation/`
+
+> • **📅 `updated`**: 2025.09.10.
+>
+> • **🔧 `Tech Stack`**: `gemini-2.5.-flash-lite` + `streamlit` + `python`
+
+<br>
+
+### 앱 배포 및 결과 화면
+
+* 앱 실행 화면
+<br>
+![앱 실행 화면](../20250727-langchain-note/19_LangChain-practice-basic/02_ai-poet-creation/img/04_depolyment_1.png)
+
+<br>
+
+  * 시 생성 조건 입력 하기: `주제`, `스타일`, `참고 시인`
+  <br>
+    ![시 생성 조건 입력](../20250727-langchain-note/19_LangChain-practice-basic/02_ai-poet-creation/img/04_depolyment_4.png)
+
+<br>
+
+* 시 생성 결과 화면
+<br>
+![시 생성 결과](../20250727-langchain-note/19_LangChain-practice-basic/02_ai-poet-creation/img/04_depolyment_5.png)
+
+<br>
+
+### 관련 문서 위치
+ 
+* `19_LangChain-practice-basic/02_ai-poet-creation/` - 실습 파일 폴더
+
+* `docs/practice/deploymen/` - 실습 과정 및 결과 정리
+
+* `docs/troubleshooting/Streamlit-deployment-gemini-api-timeout.md` / `docs/troubleshooting/Streamlit-deployment-gemini-api-timeout.pdf` - 배표과정 트러블슈팅 정리
+
+
+<br>
+
 ---
 
 ## 🛠️ Git 커밋 메시지 자동 생성기(`gen_langchain_commit.py`)
@@ -106,14 +162,4 @@ python scripts/gen_langchain_commit.py
 
 ---
 
-## 🔖 참고 자료 / Reference
-
-- [랭체인LangChain 노트 by 테디노트](https://wikidocs.net/book/14314)
-- [LangChain 공식 문서](https://www.langchain.com/docs/)
-- [OpenAI API Reference](https://platform.openai.com/docs/introduction)
-- [Gemini API Guide (Google)](https://ai.google.dev/gemini-api/docs/migrate?hl=ko#client)
-
----
-
 📌 이 프로젝트는 계속 업데이트되고 있습니다.  
-업데이트 로그는 👉 [`./docs/changelog/official.md`](./docs/changelog/official.md)에서 확인
