@@ -82,6 +82,49 @@
 
 <br>
 
+## **🆕** 💻 [**`Python 3.13.기반 HWP Custom Loader`**](../20250727-langchain-note/06_Document_Loader/custom_hwp_loader2.py)
+
+> • **📅 `updated`**: 2025.09.13.
+>
+> • **🔧 `Tech Stack`**: **`Python 3.13` + 외부 설치 모듈 (`pip install olefile`, `pip install langchain-core`)**
+
+<br>
+
+### 파일 위치
+
+```markdown
+
+    ../06_Document_Loader/
+        |
+        ├── 02_HWP_Loader.ipynb                # HWP-Loader 내용 정리
+        ├── custom_hwp_loader.py               # 실패 (TeddyNote 로직 추출 시도)
+        |
+        ├── ✅ custom_hwp_loader2.py           # 최종 성공한 HWP 파서
+        |
+        ├── data/
+        │   └── 디지털 정부혁신 추진계획.hwp         # 테스트 파일
+        └── ...etc
+        
+    ../docs
+        └── troubleshooting/
+            ├── ...                                 # 다른 트러블슈팅 파일들
+            |
+            └── hwp-parsing-troubleshooting.md      # 해당 문서
+
+```
+<br>
+
+### 실행 결과
+
+* `custom_hwp_loader2.py` 실행 화면
+![HWP 파싱 결과](../20250727-langchain-note/06_Document_Loader/Img/custom_hwp_loader2.png)
+
+<br>
+
+---
+
+<br>
+
 ## **🆕** 🚀 [**`인공지능 시인 App`**](https://ai-poet-with-gemini-flash-lite.streamlit.app/#b8c229c2) 배포 - `../19/02_ai-poet-creation/`
 
 > • **📅 `updated`**: 2025.09.10.
@@ -151,15 +194,17 @@
 🎯 실행 방법:
 
 ```bash
-python scripts/gen_langchain_commit.py
+  python scripts/gen_langchain_commit.py
 ```
 
 또는
 
 ```bash
-./scripts/gen_langchain_commit.py
+  ./scripts/gen_langchain_commit.py
 ```
 
 ---
+
+<br>
 
 📌 이 프로젝트는 계속 업데이트되고 있습니다.  
