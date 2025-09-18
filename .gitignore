@@ -240,3 +240,7 @@ requirements.txt.backup
 
 # streamlit-deploy 브랜치에서 만들었던 requirements.txt
 requirements-streamlit.txt
+
+# java 설치 후 생긴 파일
+07_Text_Splitter/hs_err_pid25274.log
+
