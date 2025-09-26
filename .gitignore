@@ -244,3 +244,9 @@ requirements-streamlit.txt
 # java 설치 후 생긴 파일
 07_Text_Splitter/hs_err_pid25274.log
 
+# FAISS 이후 생성된 파일 및 폴더
+09_VectorStore/faiss_db/
+09_VectorStore/faiss_light_index/
+
+
+

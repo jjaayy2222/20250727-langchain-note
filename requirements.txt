@@ -139,6 +139,7 @@ langchain-community==0.3.29
 langchain-core==0.3.76
 langchain-experimental==0.3.4
 langchain-google-genai==2.0.10
+langchain-huggingface==0.3.1
 langchain-openai==0.3.33
 langchain-text-splitters==0.3.11
 langchain-upstage==0.7.3
@@ -273,6 +274,7 @@ safetensors==0.6.2
 scikit-learn==1.7.2
 scipy==1.16.2
 Send2Trash==1.8.3
+sentence-transformers==5.1.1
 setuptools==80.9.0
 sgmllib3k==1.0.0
 shellingham==1.5.4
