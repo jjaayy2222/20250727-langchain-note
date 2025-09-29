@@ -224,8 +224,9 @@ pyrightconfig.json
 
 # End of https://www.toptal.com/developers/gitignore/api/jupyternotebooks,python
 
-# vertex-ai-key.json
+# GCP
 vertex-ai-key.json
+gen-lang-client-0969650881-efb8d03eaa79.json
 
 # git-commit-message 관련 = 자동 커밋 로그 백업 (raw)
 docs/changelog/langchain-commit-message-from-git.md
