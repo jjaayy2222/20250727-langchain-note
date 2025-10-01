@@ -142,6 +142,7 @@ langchain-experimental==0.3.4
 langchain-google-genai==2.0.10
 langchain-groq==0.3.8
 langchain-huggingface==0.3.1
+langchain-ollama==0.3.8
 langchain-openai==0.3.33
 langchain-text-splitters==0.3.11
 langchain-upstage==0.7.3
@@ -192,6 +193,7 @@ notebook_shim==0.2.4
 numpy==2.3.3
 oauthlib==3.3.1
 olefile==0.47
+ollama==0.6.0
 onnxruntime==1.22.1
 open_clip_torch==3.2.0
 openai==1.107.2
