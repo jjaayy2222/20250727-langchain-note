@@ -82,7 +82,31 @@
 
 <br>
 
-## **🆕** 💻 [**`Python 3.13.기반 HWP Custom Loader`**](../20250727-langchain-note/06_Document_Loader/custom_hwp_loader2.py)
+## **🆕** 🏆 Recent Achievements
+
+> • **📅 `updated`**: 2025.10.01.
+
+### #32.12: **`MultiVectorRetriever with Local LLM`** (Oct 2025)
+- ✅ **`EXAONE 3.5 integration`** (`Korean optimized`)
+- ✅ Zero API cost implementation
+- ✅ **`1024d` `multilingual embeddings`**
+- 📊 34min summaries + 30min hypothetical queries for 61 docs
+
+### 관련 문서 위치
+
+* `10_Retirever/` - 실습 파일 폴더
+
+* `10_Retriever/07_MultiVectorRetriever_1.ipynb` - 로컬에서 임시 처리
+
+* **`10_Retriever/07_MultiVectorRetriever_2.ipynb` - `Ollama 로컬 LLM 다운로드` 후 성공**
+
+* `10_Retriever/07_MultiVectorRetriever_1.pdf`, `10_Retriever/07_MultiVectorRetriever_2.pdf`, `10_Retriever/07_MultiVectorRetriever_3.pdf` - API 할당량 부족, 저차원 임베딩 모델 등에 의한 실패과정 내용 정리
+
+* `docs/troubleshooting/MultiVectorRetriever_API_constraint_troubleshooting.md` / `docs/troubleshooting/MultiVectorRetriever_API_constraint_troubleshooting.pdf` - 과정 트러블슈팅 정리
+
+<br>
+
+## 💻 [**`Python 3.13.기반 HWP Custom Loader`**](../20250727-langchain-note/06_Document_Loader/custom_hwp_loader2.py)
 
 > • **📅 `updated`**: 2025.09.13.
 >
@@ -125,7 +149,7 @@
 
 <br>
 
-## **🆕** 🚀 [**`인공지능 시인 App`**](https://ai-poet-with-gemini-flash-lite.streamlit.app/#b8c229c2) 배포 - `../19/02_ai-poet-creation/`
+## 🚀 [**`인공지능 시인 App`**](https://ai-poet-with-gemini-flash-lite.streamlit.app/#b8c229c2) 배포 - `../19/02_ai-poet-creation/`
 
 > • **📅 `updated`**: 2025.09.10.
 >
@@ -159,7 +183,7 @@
 
 * `docs/practice/deploymen/` - 실습 과정 및 결과 정리
 
-* `docs/troubleshooting/Streamlit-deployment-gemini-api-timeout.md` / `docs/troubleshooting/Streamlit-deployment-gemini-api-timeout.pdf` - 배표과정 트러블슈팅 정리
+* `docs/troubleshooting/Streamlit-deployment-gemini-api-timeout.md` / `docs/troubleshooting/Streamlit-deployment-gemini-api-timeout.pdf` - 배포과정 트러블슈팅 정리
 
 
 <br>
