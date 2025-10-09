@@ -248,6 +248,30 @@ requirements-streamlit.txt
 # FAISS 이후 생성된 파일 및 폴더
 09_VectorStore/faiss_db/
 09_VectorStore/faiss_light_index/
+12_RAG/faiss_index/
+12_RAG/cache/
+
+# 12번 폴더
+12_RAG/utils/lcel_concept_splits.pkl
+12_RAG/utils/lcel_concept_splits_2.pkl
+12_RAG/utils/lcel_concept_splits_3.pkl
+12_RAG/utils/lcel_concept_counts.pkl
+12_RAG/utils/lcel_concept_docs_texts.pkl
+12_RAG/utils/lcel_concept_docs.pkl
+12_RAG/04_RAPTOR-Long-Context-RAG-CODE.ipynb
+12_RAG/04_RAPTOR-Long-Context-RAG-CODE_2.ipynb
+12_RAG/04_RAPTOR-Long-Context-RAG-CODE_3.ipynb
+12_RAG/RAPTOR/
+12_RAG/RAPTOR2/
+12_RAG/RAPTOR3/
+12_RAG/images/output_3.png
+12_RAG/images/output_4.png
+12_RAG/images/output_5.png
+12_RAG/images/output_6.png
+12_RAG/images/output_8.png
+12_RAG/images/transformer_T5.png
+
+
 
 
 
