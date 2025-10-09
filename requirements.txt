@@ -146,7 +146,7 @@ kubernetes==33.1.0
 langchain==0.3.27
 langchain-chroma==0.2.6
 langchain-cohere==0.4.6
-langchain-community==0.3.29
+langchain-community==0.3.30
 langchain-core==0.3.78
 langchain-experimental==0.3.4
 langchain-google-genai==2.1.12
