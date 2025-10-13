@@ -271,6 +271,9 @@ requirements-streamlit.txt
 12_RAG/images/output_8.png
 12_RAG/images/transformer_T5.png
 
+# 14번 폴더
+14_Chains/data/finance.db
+14_Chains/Chinook.db
 
 
 
