@@ -80,7 +80,7 @@ class PDFRAG:
         """HuggingFace 임베딩 생성"""
         self.embeddings = HuggingFaceEmbeddings(
             model_name=self.embedding_model_name,
-            model_kwargs={'device': 'cpu'},  # M1/M2는 'cpu' 사용
+            model_kwargs={'device': 'cpu'},             # M1/M2는 'cpu' 사용
             encode_kwargs={'normalize_embeddings': True}
         )
         print(f"✅ 임베딩 모델 로드: {self.embedding_model_name}")
