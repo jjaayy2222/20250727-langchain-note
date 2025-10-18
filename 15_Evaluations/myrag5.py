@@ -1,4 +1,4 @@
-# myrag4.py
+# myrag5.py
 
 from langchain_community.document_loaders import PyMuPDFLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
@@ -66,7 +66,7 @@ class PDFRAG:
         )
         print(f"✅ 벡터스토어 생성 완료: FAISS")
     
-    def create_retriever(self, k=7, search_type="similarity"):
+    def create_retriever(self, k=10, search_type="similarity"):
         """
         검색기 생성
         
@@ -130,4 +130,52 @@ class PDFRAG:
         )
         
         print(f"✅ RAG 체인 생성 완료")
+        return chain
+
+# ========================================
+# Question-Answer Evaluator 추가
+# ========================================
+    
+    def create_chain_with_context(self, retriever):
+        """
+        Context를 포함하여 반환하는 체인 생성
+        
+        Returns
+        -------
+        chain
+            Context와 Answer를 함께 반환하는 체인
+        """
+        from langchain_core.runnables import RunnablePassthrough
+        
+        # Context 추출 함수
+        def format_docs(docs):
+            return "\n\n".join([doc.page_content for doc in docs])
+        
+        # 프롬프트는 기존과 동일
+        prompt = PromptTemplate.from_template(
+            """당신은 질문에 답변하는 AI 어시스턴트입니다.
+
+        주어진 Context를 **반드시** 참고하여 정확하게 답변하세요.
+        Context에 정보가 없으면 "죄송합니다. 제공된 문서에서 해당 정보를 찾을 수 없습니다."라고 답변하세요.
+
+        Context:
+        {context}
+
+        Question: {question}
+
+        Answer:"""
+        )
+        
+        # Context와 Answer를 함께 반환하는 체인
+        chain = (
+            {
+                "context": retriever | format_docs,
+                "question": RunnablePassthrough(),
+            }
+            | RunnablePassthrough.assign(
+                answer=prompt | self.llm | StrOutputParser()
+            )
+        )
+        
+        print(f"✅ Context 포함 RAG 체인 생성 완료")
         return chain
