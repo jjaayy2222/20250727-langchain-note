@@ -275,6 +275,8 @@ requirements-streamlit.txt
 14_Chains/data/finance.db
 14_Chains/Chinook.db
 
-
+# 15번 폴더
+# test용 폴더
+15_Evaluations/test/ 
 
 
