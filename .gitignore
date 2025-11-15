@@ -278,5 +278,10 @@ requirements-streamlit.txt
 # 15번 폴더
 # test용 폴더
 15_Evaluations/test/ 
+# 결과 생성물
+*.json
+*.csv
+*.yaml
+*.arrow
 
 
