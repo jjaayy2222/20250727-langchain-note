@@ -284,4 +284,7 @@ requirements-streamlit.txt
 *.yaml
 *.arrow
 
-
+.vscode/
+.vscode/settings.json
+markdownlint.json
+.markdownlint-cli2.jsonc
